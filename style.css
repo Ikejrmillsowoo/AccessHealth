@@ -1,0 +1,8 @@
+html, body {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: large;
+}
