@@ -77,11 +77,14 @@
     border-bottom: 2px solid lightgray;
  }
 
+<<<<<<< HEAD
  #aboutUs span {
      color: #eb0e3b;
      font-size: 1.8em;
      font-weight: 650;
  }
+=======
+>>>>>>> c39e2784091478b59ed16d05ae80077dd6eb3461
  #team .container .row-content {
     padding: 20px;
     padding-left: 0;
@@ -109,6 +112,7 @@
      margin: 100px 40px 0 40px;
      
  }
+<<<<<<< HEAD
  #newMessage .form-control {
     border: solid black 3px;
  }
@@ -130,6 +134,8 @@
      margin: 10px;
  }
 
+=======
+>>>>>>> c39e2784091478b59ed16d05ae80077dd6eb3461
 
  footer a{
   color: white;
