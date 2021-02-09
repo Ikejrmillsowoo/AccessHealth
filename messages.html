@@ -22,7 +22,7 @@
 
 <body>
     <section id="header">
-        <div class="container mb-4">
+        <div class="container mt-4">
             <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
                 <a href="#" class="navbar-brand">
                     <img src="./images/accesshealth-mini-logo.jpg" alt="Access Health Logo" style="width:50px"
@@ -37,8 +37,8 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarItems">
                     <ul class="navbar-nav">
                         <li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-                        <li class="nav-item active"><a href="#" class="nav-link">About Us</a></li>
-                        <li class="nav-item"><a href="./messages.html" class="nav-link">Messages</a></li>
+                        <li class="nav-item"><a href="./aboutus.html" class="nav-link">About Us</a></li>
+                        <li class="nav-item active"><a href="#" class="nav-link">Messages</a></li>
                         <li class="nav-item"><a href="./services.html" class="nav-link">Services</a></li>
                         <li class="nav-item"><a href="./contactus.html" class="nav-link">Contact Us</a></li>
                         <li class="nav-item"><a type="button" class="nav-link" data-target="#loginModal"
@@ -171,130 +171,66 @@
 
     <!-- End of log in form -->
 
-    <!-- Main About us  -->
-    <section id="aboutUs">
-        <div class="container">
-            <h2>About Us:</h2>
-                <div class="row">
-                    <div class="col-12 mt-2">
-                        <h3>Our Mission</h3>
-                    <p>
-                       <span>A</span>ccess Health is a team of healthcare providers who have seen the need to create access to health information
-                        to people in our communities. We are made up of Nurses, therapist and counselors who are specialized in various aspects of 
-                        healthcare and are willing to help anyone with needs and requests. <br>
-                    </p>
-                    </div>
-                    <div class="col-12 mt-2">
-                    <h3>So how does Access Health work?</h3>
-                    <p>
-                        <span>W</span>e provide a platfor for our users to ask health related questions and any one of our team members will 
-                        respond with an answer, direction and or advice. The answers to the questions are dependent on the situation 
-                        and state of the user. <br>
-                        
-                    </p>
-                    </div>
-                    <div class="col">
-                    <h3>Important Note:</h3>
-                    <p>
-                       <span>A</span>ccess Health does is not a replacement for emergency rooms and situations and in any case where 
-                        our team thinks further medical aid is needed, it is our responsibility to direct you. Although our recomendations are 
-                        based on experience and industry knowledge, we provide advice and remedies that are over the counter and do not require 
-                        a prescription to obtain. 
-                    </p>
-                    </div>
-                </div>
+ <!-- new messages box -->
+<section id="newMessage">
+    <div class="container">
+        <h5>New Message: </h5>
+        <form>
+    <div class="row form-group newMessage">
+        <label for="services" class="col-12 col-md-6 col-form-label">Select desired services:</label>
+        <div class="col">    
+        
+              <select name="services" id="services" class="form-control">
+                <option>select...</option>
+                  <option value="Covid 19">Covid 19</option>
+                  <option value="Lab Results">Lab Results</option>
+                  <option value="Children's Health">Children's Health</option>
+                  <option value="Respiratory Therapy">Respiratory Therapy</option>
+                  <option value="Mental Health">Mental Health</option>
+                  <option value="Physical Therapy">Physical Therapy</option>
+              </select>
+         
+          </div>
         </div>
-    </section>
-    <!-- End About us -->
-
-    <!-- Our Team -->
-    <section id="team">
-        <div class="container">
-        <h2>Meeet Our Team</h2>
-       
-            <div class="row row-content">
-                <div class="col mb-3">
-                    <img class="img-fluid img-thumbnail" src="./images/displayisaac.jpg" alt="Isaac">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h4>Isaac Mills-Owoo RRT</h4>
-                    <p>Founder of Access Health and lead respiratoey therapist. Isaac has workerd at the bedside for over a decade and 
-                        is experienced in both critical, acute and long term care. Isaac has worked with both adults and pediatrics and 
-                    is dedicated to providing relief and care ne patient at a time. </p>
-                </div>
+        <div class="row form-group">
+            <label for="userMsg" class="col-12 col-form-label">Enter your question or symptoms:</label>
+            <!-- <div class="col"> 
+                <input type="text" name="userMsg" id="userMsg" class="input-large form-control input-xxlarge"></input>
+              </div> -->
+              <div class="col">
+                  <textarea name="userMsg" id="userMsg" cols="50" rows="10" class="input-large form-control input-xxlarge"></textarea>
+              </div>
             </div>
-            <div class="row row-content">
-                <div class="col mb-3">
-                    <img class="img-fluid img-thumbnail" src="./images/displaydeborah.jpg" alt="Deborah">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h4>Deborah Atta-Fynn BS</h4>
-                    <p>Co-founder and CEO of Access Health. Deborah's background as a paraleagal and digital security consultant 
-                        has made her perfect for to run the daily high level operations of Access Health. Her commitment to maintaining 
-                        a qualified staff who are dedicated to the well being of our customers and community.
-                    </p>
-                </div>
-            </div>
-            <div class="row row-content">
-                <div class="col mb-3">
-                    <img class="img-fluid img-thumbnail" src="./images/displayfaith.jpg" alt="Faith">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h4>Faith Nelson-Tibuah MSM</h4>
-                    <p>Faith's is Access Health's mental health counselor and working with other disciplines, she 
-                        ensures that we get adequate help to those who need it the most. In thes times, the need for mental healthj counsoling
-                        is on the rise and we at Access Health, through Faith expertise, intend to put a dent where we can.
-                    </p>
-                </div>
-            </div>
-            <div class="row row-content">
-                <div class="col mb-3 ">
-                    <img class="img-fluid img-thumbnail" src="./images/displayikedela.jpg" alt="Ikedela">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h4>Ikedela Dafeamekpor RN</h4>
-                    <p>Iky is a registered nurse with almost 20 years at the bed side, she joined Access Health because of 
-                        her commitment to community nursing. She believes in the Access Health module to reach people in the community 
-                    with health related information.  </p>
-                </div>
-            </div>
-            <div class="row row-content">
-                <div class="col mb-3">
-                    <img class="img-fluid img-thumbnail" src="./images/displaygilbert.jpg" alt="Gilbert">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h4>Gilbert Crabbe BS</h4>
-                    <p>As a certified laboratory technician and former medical assistant, Gilbert serves a lab consultant for Access Health.
-                        Through his expertise, our users can get more information and a deeper understanding to their labe results and tho their general health. 
-                        Users can also be coached on asking the right questions when seeing their primary care physician.
-                    </p>
-                </div>
-            </div>
-            <div class="row row-content">
-                <div class="col mb-3 col">
-                    <img class="img-fluid img-thumbnail" src="./images/displaykelvin.jpg" alt="Gilbert">
-                </div>
-                <div class="col-12 col-lg-6">
-                    <h4>Kelvin Addy PT</h4>
-                    <p>As a certified laboratory technician and former medical assistant, Gilbert serves a lab consultant for Access Health.
-                        Through his expertise, our users can get more information and a deeper understanding to their labe results and tho their general health. 
-                        Users can also be coached on asking the right questions when seeing their primary care physician.
-                    </p>
-                </div>
-            </div>
+    </form>
         </div>
-    </section>
 
-    <section id="welcome">
-        <div class="row">
-            <div class="col text-center m-3 welcome">
-                <h6>We welcome you to reach oout to us with any questions, requests or comments. We at Access Health are here for you. 
+</section>
+   
+ <!-- end message box -->
 
-                </h6>
-            </div>
-        </div>
-    </section>
-    <!-- end out team -->
+ <!-- previous messages -->
+ <section id="prevMessages">
+     <div class="container">
+         <div class="row">
+             <div class="col ">
+              <h5>Previous Messages: </h5> 
+             </div>
+             <div class="col-12">
+                 <ol class="list-unstyled">
+                     <li><a href="" class="text-dark">Some link to messages</a></li>
+                     <li><a href="" class="text-dark">Another link</a></li>
+                     <li><a href="" class="text-dark">Next link </a></li>
+                     <li><a href="" class="text-dark">Last link</a></li>
+                 </ol>
+             </div>
+         </div>
+
+     </div>
+ </section>
+
+ 
+ <!-- previous messages -->
+    <!-- Footer -->
     <footer class="navbar-dark bg-dark text-white">
         <div class="container sticky-bottom">
             <div class="row align-items-center pt-2">
@@ -315,7 +251,7 @@
                 </div>
                 <div class="col text-center">
                     <ul class="list-unstyled"">
-                        <li ><a href="#">About Us</a></li>
+                        <li ><a href="./aboutus.html">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li type="button"><a data-target="#loginModal" data-toggle="modal" >Log-in</a></li>
                     </ul>

@@ -7,29 +7,24 @@
 
  }
 
-
-
  .navbar  {
      height: auto; 
-   
  }
  .navbar h6 {
     font-family: 'Lobster', cursive;
     font-size: 1.3em;
+    color: white;
  }
  .navbar h6 span{
     font-family: 'Lobster', cursive;
      color: #eb0e3b;
      font-size: 1.6em;
-   
  }
 
-.navbar-nav  nav-link a {
-    color: white;
+.navbar-nav nav-link {
     font-size: .8em;
 }
-.navbar-nav nav-link a:hover {
-    color: black;
+.navbar-nav nav-link:hover {
     font-size: .8em;
     opacity: 1;
     
@@ -63,13 +58,16 @@
 
  #display .carousel-caption {
     background-color: black;
-    opacity: .7;
+    opacity: .8;
     border-radius: 10px;
-    height: 20%;
+    height: 30%;
     width: auto;
  } 
  #display .carousel-caption h5{ 
-     font-size: .9em;
+     font-size: 1.5em;
+ }
+ #display .carousel-caption p {
+     font-size: 1.3em;
  }
 
  .card {
@@ -77,6 +75,24 @@
  }
  .card .card-title {
     border-bottom: 2px solid lightgray;
+ }
+
+ #aboutUs span {
+     color: #eb0e3b;
+     font-size: 1.8em;
+     font-weight: 650;
+ }
+ #team .container .row-content {
+    padding: 20px;
+    padding-left: 0;
+    margin: 20px;
+    margin-left: 0;
+ }
+
+ #team .container img {
+     width: 100%;
+     height: 100%;
+     border: solid black 3px;
  }
 
  #welcome {
@@ -88,6 +104,32 @@
     background-color:bisque;
     width: max-content;
  }
+
+ #newMessage {
+     margin: 100px 40px 0 40px;
+     
+ }
+ #newMessage .form-control {
+    border: solid black 3px;
+ }
+ #prevMessages li a:hover {
+     opacity: .7;
+ }
+
+ .contact {
+     background-color: darkgreen;
+     color: white;
+    
+ }
+ #contactus p {
+     font-size: large;
+ }
+
+
+ #contactus .card {
+     margin: 10px;
+ }
+
 
  footer a{
   color: white;
