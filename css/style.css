@@ -29,6 +29,13 @@
     opacity: 1;
     
 }
+
+.modal-header {
+    background-color: green;
+    /* color: white; */
+    opacity: .8;
+}
+
 #pageHead {
  margin-top: 100px;
  background-color: #eaeaf5;
@@ -77,14 +84,11 @@
     border-bottom: 2px solid lightgray;
  }
 
-<<<<<<< HEAD
  #aboutUs span {
      color: #eb0e3b;
      font-size: 1.8em;
      font-weight: 650;
  }
-=======
->>>>>>> c39e2784091478b59ed16d05ae80077dd6eb3461
  #team .container .row-content {
     padding: 20px;
     padding-left: 0;
@@ -112,7 +116,6 @@
      margin: 100px 40px 0 40px;
      
  }
-<<<<<<< HEAD
  #newMessage .form-control {
     border: solid black 3px;
  }
@@ -121,9 +124,13 @@
  }
 
  .contact {
-     background-color: darkgreen;
+     background-color: green;
      color: white;
+     opacity: .8;
     
+ }
+ #contactus .container {
+     margin-top: 40px;
  }
  #contactus p {
      font-size: large;
@@ -134,8 +141,6 @@
      margin: 10px;
  }
 
-=======
->>>>>>> c39e2784091478b59ed16d05ae80077dd6eb3461
 
  footer a{
   color: white;
@@ -148,51 +153,4 @@
     opacity: .7;    
  }
 
- /* up to medium viewports */
- /*@media screen and (max-width: 768px) {
-     
- /* .navbar  {
-    background-image: linear-gradient(#4A44F2, white);
-    opacity: 1;
-    height: auto;
-    margin-bottom: 60px;
-} */
-
-/* .navbar:hover {
-    opacity: 1;
-} */
-
-
-/* .navbar-nav a {
-    color: black;
-    font-size: .8em;
-    opacity: .7;
-    transition: color 2s ease;
-}
-
-.navbar-nav a:hover {
-    color: black;
-    font-size: .8em;
-    opacity: 1;
-    
-/* } */
-/* 
-#pageHead h1 {
-    font-family: 'lobster', cursive;
-    margin-top: -50px;
-    font-size: 1.6em;
-}
-
-.container h3 {
-    font-size: 1.4em;
-    padding-left: 10px;
-    font-style: oblique;
-}
-.container h5 {
-    font-size: 1.1em;
-    font-style: oblique;
-}
-.container .newsItem {
-    height: auto;
-}
- }  */
+ 
